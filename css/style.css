@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+	font-family: 'Bebas Neue', cursive;
+	margin: 0;
+    padding: 0;
+}
+
+
+
+/*common end*/
+/*header start*/
+ header{
+ 	background-image: url(../images/header.png);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+    padding: 16px 0;
+ 	
+
+ }
+ .container{
+
+ 	width: 90% ;
+ 	margin: 0 auto ;
+ 	overflow: hidden;
+ }
+ .barger_img{
+ 	float: left;
+ 	width: 20%;
+ 	/*border: 1px solid black;*/
+ }
+ .barger_img img{
+
+ 	width: 100%;
+ }
+ .menu_up{
+
+    float: right;
+ 	width: 25%;
+ 	display: block;
+    /*border: 1px solid white;*/
+
+ }
+ .menu_up img{
+ 	float: left;
+ }
+ .menu_up p{
+ 	font-weight: bold;
+ 	padding: 10px;
+ 	color: #66401f;
+ }
+ .nav{
+ 	padding: 10px;
+ 	float:  right;
+ 	width: 80%;
+   /* border: 1px solid white;*/
+ }
+ .nav ul{
+ 	display: block;
+
+ 	float: right;
+ 	list-style: none;
+ }
+ .nav ul li{
+ 	margin: 0 35px;
+	display: inline-block;
+	color: ;
+	text-transform: uppercase;
+	text-decoration: none;
+ }
+ .nav ul li a{
+ 	margin-right: 0;
+ 	text-decoration: none;
+ 	letter-spacing: 3px;
+	/*padding: 5px 15px;*/
+	display: block;
+	color: #66401f ;
+	font-size: 20px;
+
+ 	transition: .5s;
+ }
+ .nav ul li a:hover{
+ 	color: tomato;
+ }
+
+ .nav ul li:last-child a{
+	margin-right: 0;
+}
+.container1{
+	/*border: 1px solid blue;*/
+	width: 90%;
+	margin: 0 auto;
+}
+.text{
+	/*border: 1px solid black;*/
+	float: left;
+	width: 42%;
+
+}
+.p{ 
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 400;
+	display: inline-block;
+	margin-top: 140px;
+	margin-bottom: 0;
+	padding: 5px 10px;
+	color: #66401f;
+	border: 2px dashed #66401f;
+}
+.big_word{
+	margin: 0;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 400;
+    font-size: 80px;
+    text-transform: uppercase;
+    text-shadow: 4px 4px #ffe8bd;
+
+  	color:#3c2513;
+}
+.big_word2{
+	margin: 0;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 4px 4px #ffe8bd;
+
+  	color:#3c2513;
+}
+.h_big_img{
+	    display: block;
+		margin-left: auto;
+		argin-right: auto;
+		width:50%;
+		
+		padding: 50px 0;
+		/*border: 1px solid green;*/
+
+}
+
+.h_big_img img{
+  
+  
+  height: 500px;
+  width: 100%;
+ }
+
+ /*header end*/
+ /*TRY today start*/
+  
+ .container2{
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0;
+    overflow: hidden;
+    /* border: 1px solid blue; 
+*/
+ }
+ .b_single_left{
+ 	float: left;
+    width: 49%;
+    position: relative;
+ }
+ .b_single_left img{
+ 	width: 100%;
+ }
+ .pg_1{
+ 	position: absolute;
+    top: 15px;
+    left: 20px;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+ }
+ .pg_2{
+ 	position: absolute;
+    top: 45px;
+    left: 20px;
+    font-size: 42px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+ }
+ .b_single_right{
+ 	width: 49%;
+    float: right;
+ }
+ .more_fun {
+ 	padding-bottom: 28px;
+    position: relative;
+
+ }
+.more_fun img{
+	width: 100%;
+}
+.pg_3{
+	position: absolute;
+    top: 90px;
+    left: 20px;
+    font-size: 42px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+}
+.fresh{
+	position: relative;
+}
+.fresh img{
+	width: 100%;
+}
+
+/*try today end*/
+
+
+/* choose & enjoy start */
+.choose{
+	margin: 20px 0;
+}
+.container3{
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
+	/*border: 1px solid blue;*/
+}
+span{
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 20px;
+	background-color: #ffc043;
+}
+.heading{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 40px;
+	margin: 35px 0;
+	letter-spacing: 4px;
+	color: #3d2612;
+
+}
+.dis_c{
+	font-family: sans-serif;
+	line-height: 25px;
+	color: #3d2613;
+}
+
+/* choose & enjoy end */
+/*product item start*/
+.product_item{
+	margin: 40px;
+
+
+}
+.container4{
+	
+	
+	/*border: 1px solid blue;*/
+}
+.s_product1{
+
+	float: left;
+	width: 26.70%;
+	padding: 40px 20px;
+	margin-right: 28px;
+
+	text-align: center;
+}
+.s_product1 img{
+  width: 100%;
+}
+.title{
+	color: #3d2612;
+	font-size: 30px;
+	font-weight: 400;
+	padding: 18px 0;
+}
+.button{
+	font-family: 'Alfa Slab One', cursive;
+    display: inline-block;
+    margin: 35px 0;
+    padding: 15px 28px;
+	font-size: 16px;
+	background-color: #be2223;
+	color: white;
+	text-transform: uppercase;
+	transition: .5s;
+	
+}
+.button:hover{
+	background-color: #ffc75a;
+	color: #be2223;
+	/*transition: .5s;*/
+	
+}
+/*product item end*/
+
+
+
+/*upcoming start*/
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 12px 4px 18px ;
+    overflow: hidden;
+    margin-top: 90px;
+}
+.up_content {
+    width: 36%;
+    float: left;
+    padding: 31px 0;
+    padding-left: 43px;
+}
+.title_1 {
+    
+    font-weight: 400;
+    font-size: 25px;
+    color: black;
+}
+.up_h2 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #3d2514;
+    margin-bottom: 30px;
+}
+.details {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #3d3d3d;
+}
+.mini_icon {
+    margin-top: 80px;
+}
+.b_img {
+    float: right;
+    width: 55%;
+    margin-top: 15px;
+    margin-right: 19px;
+    margin-bottom: 15px;
+}
+.b_img img {
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+/*upcoming end*/
+/*table start*/
+ .booking{
+  
+ }
+ .wrapper1{
+ 	width: 100%;
+ 	margin-top: 90px;
+ 	padding: 50px 0;
+ 	/*border: 1px solid red;*/
+ 	overflow: hidden;
+ }
+ .left_img{
+ 	width: 20% ;
+ 	float: left;
+ 	/*border: 1px solid yellowgreen;*/
+ }
+ .left_img img{
+ 	width: 100%;
+ }
+ 
+ .table{
+ 	
+ 	float: left;
+ 	width: 52%;
+ 	align-items: center;
+ 	/*border:1px solid darkcyan ;*/
+ 	margin-bottom: 30px;
+ }
+ .table_content{
+ 	text-align: center;
+
+ }
+ .information{}
+ .wrapper1 form .user-details{
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content: space-between;
+ }
+ form .user-details .input-box{
+ 	width: calc(90% / 2 - 20px);
+ 	margin: 20px 0 15px 0;
+ 	
+ }
+
+ .user-details .input-box input{
+ 	height: 40px;
+ 	width: 100%;
+ 	border-radius: 5px;
+ }
+ form input[type="radio"]{
+ 	display: none;
+ }
+
+ .myButton {
+    border: none;
+    width: 46%;
+    background-color: #cc3333;
+    border-radius: 5px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    padding: 8px  2px;
+    
+    text-align: center;
+    margin-top: 0;
+    text-transform: uppercase;
+
+
+}
+
+ .right_img{
+ 	margin-top: 100px;
+ 	width: 20%;
+ 	float: right;
+ 	/*border: 1px solid royalblue;*/
+ }
+ .right_img img{
+ 	width: 100%;
+ }
+ 
+/*table end*/
+
+/*footer start */
+.wrapper2 {
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+    /*border: 1px solid green;*/
+}
+.footer1 {
+    margin-top: 30px;
+    margin-bottom: 70px;
+    height: 525px;
+    padding-top: 86px;
+    padding-left: 32px;
+    background-image: url(../images/footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.left {
+    margin-left: 40px;
+    width: 43%;
+    float: left;
+}
+.f_img {
+    margin-bottom: 35px;
+
+    width: 70%;
+    color: white;
+}
+.p1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color: white;
+    line-height: 2;
+}
+
+.p4 {
+    margin-top: 100px;
+    float: left;
+}
+.right {
+    margin-top: 100px;
+    width: 30%;
+    float: right;
+    padding: 40px;
+}
+.right img{
+	margin-top: 40px;
+	
+}
+.right p{
+	
+}
+.s-icon{
+  position: relative;
+  bottom: 0;
+  right: 0;
+}
+/*footer end*/
